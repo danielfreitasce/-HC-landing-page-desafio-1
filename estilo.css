@@ -83,13 +83,13 @@ img{max-width: 100%;}
     font-size: 3vh;
     font-weight: 500;
     border: 0;
-    padding: 10px 35px;
+    padding: 10px 30px;
     border-radius: 15px;
-    width: auto;
+    width: 20vw;
 }
 
 .botao-de-acao{
-    font-size: 2vh;
+    font-size: 3vh;
     font-weight: 800;
     color: #fff;
     background-color: #000; 
