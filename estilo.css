@@ -19,7 +19,7 @@ img{max-width: 100%;}
 
 #nave ul a{
     color: #fff;
-    font-size: 16px;
+    font-size: 1.5vw;
     text-transform: uppercase;
     font-weight: 800;
 }
@@ -31,8 +31,8 @@ img{max-width: 100%;}
 
 #logotipo{
     float: left;
-    max-height: 150px;
-    max-width: 150px;
+    max-height: 25vh;
+    max-width: 25vw;
     margin-left: 25px;
 }
 /*CABEÇALHO*/
@@ -42,7 +42,7 @@ img{max-width: 100%;}
 
     text-align: center;
     color: #fff;
-    margin-top: 20vh;
+    margin-top: 10vh;
     
 }
 
@@ -50,16 +50,15 @@ img{max-width: 100%;}
 
 #chamada-para-acao p{
     display: block;
-    margin-top: 20px;
-
-    
+    margin-top: 05vh;
+    font-size: 1.3vw;
 }
 #chamada-para-acao{
-    margin-top: 20px;
+    margin-top: 05vh;
 }
 
 .chamada h1{
-    font-size: 36px;
+    font-size: 03vw;
 }
 /*CHAMADA PARA ACAO*/
 
@@ -81,7 +80,7 @@ img{max-width: 100%;}
 }
 
 #cadastro-email input{
-    font-size: 15px;
+    font-size: 1.3vw;
     font-weight: 500;
     border: 0;
     padding: 15px 35px;
@@ -90,7 +89,7 @@ img{max-width: 100%;}
 }
 
 .botao-de-acao{
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 800;
     color: #fff;
     background-color: #000; 
@@ -104,7 +103,7 @@ img{max-width: 100%;}
 
 .rodape{
     text-align: center;
-    font-size: 14px;
+    font-size: 1.05vw;
     font-weight: 500;
     color: #fff;
     margin-top: 35vh;
