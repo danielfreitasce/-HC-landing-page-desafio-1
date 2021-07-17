@@ -66,7 +66,7 @@ img{max-width: 100%;}
 .formulario{
     
     width: 100vw;
-    height: 25vh;
+    height: 20vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -80,21 +80,21 @@ img{max-width: 100%;}
 }
 
 #cadastro-email input{
-    font-size: 1.3vw;
+    font-size: 3vh;
     font-weight: 500;
     border: 0;
-    padding: 15px 35px;
+    padding: 10px 35px;
     border-radius: 15px;
     width: auto;
 }
 
 .botao-de-acao{
-    font-size: 1.5vw;
+    font-size: 2vh;
     font-weight: 800;
     color: #fff;
     background-color: #000; 
     border: 0;
-    padding: 15px 30px;
+    padding: 20px 30px;
     border-radius: 15px;
 
 }
@@ -103,7 +103,7 @@ img{max-width: 100%;}
 
 .rodape{
     text-align: center;
-    font-size: 2vh;
+    font-size: 1vw;
     font-weight: 500;
     color: #fff;
     margin-top: 35vh;
