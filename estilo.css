@@ -51,14 +51,14 @@ img{max-width: 100%;}
 #chamada-para-acao p{
     display: block;
     margin-top: 05vh;
-    font-size: 1.3vw;
+    font-size: 2.5vh;
 }
 #chamada-para-acao{
     margin-top: 05vh;
 }
 
 .chamada h1{
-    font-size: 03vw;
+    font-size: 3.5vh;
 }
 /*CHAMADA PARA ACAO*/
 
@@ -103,7 +103,7 @@ img{max-width: 100%;}
 
 .rodape{
     text-align: center;
-    font-size: 1.05vw;
+    font-size: 2vh;
     font-weight: 500;
     color: #fff;
     margin-top: 35vh;
