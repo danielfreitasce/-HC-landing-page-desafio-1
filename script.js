@@ -4,8 +4,8 @@ function armazenar() {
 
     if ( (inputEmail === "") || (!(validaEmail(inputEmail))) ) {
         swal({
-            title: "Oxe",
-            text: "Coloque seu email",
+            title: "Opa",
+            text: "Espia teu email, não parece que está correto",
             icon: "warning",
         });
 
@@ -21,8 +21,8 @@ function armazenar() {
 
         localStorage.setItem('email_' + localStorage.contador, inputEmail);
         swal({
-            title: "Só o mí disbuiado",
-            text: "Você se cadastrou!",
+            title: "Só o mí disbuiado!",
+            text: "Você se cadastrou.",
             icon: "success",
         });
 
