@@ -19,8 +19,12 @@
     <div class="cabeca">
         <header id="cabecalho">
 
-            <a href="https://sertanejomoderno.netlify.app"><img src="img/logo.png" alt="Logotipo da loja"
-                    id="logotipo"></a>
+            <a href="https://sertanejomoderno.netlify.app"><img src="img/logo.png" alt="Logotipo Sertanejo Moderno"
+                    aria-labelledby="descricao-logo" id="logotipo"></a>
+
+            <p id=descricao-logo>O logotipo é feito de letras no modelo de xilogravura. É todo amarelo, com uma barra
+                embaixo e a frase: Sem perder a raiz.</p>
+
             <nav id="nave">
                 <ul>
                     <li><a href="">Inicio</a></li>
@@ -35,13 +39,13 @@
         <section id="chamada-para-acao">
             <div class="chamada">
                 <h1>Os maiores descontos estão aqui <br>
-                    <small>Na nossa loja a FridaYellow é arretada! E sem migué!</small>
+                    <small>Na nossa loja a "FridaYellow" é arretada! E sem migué!</small>
                 </h1>
                 <p>Roupas de qualidade feitas por mãos de trabalhadores nordestinos por um preço justo! <br>
                     Para cada venda de roupa, além de ajudar a manter a nossa linha de produção, parte do valor é doado
                     para
                     projetos educacionais no nosso sertão.<br>
-                    Na Sertanejo Moderno todo mundo sai ganhando! Cadastre seu email e não perca essa
+                    Na Sertanejo Moderno todo mundo sai ganhando! Cadastre seu email no campo abaixo e não perca essa
                     ruma
                     de
                     promoção!
@@ -51,12 +55,14 @@
 
         </section>
 
-        <section class="formulario">
+        <section aria-label="Formulário de cadastro de email" class="formulario">
             <div>
 
                 <form id="cadastro-email">
-                    <input type="email" id="email" autocomplete="on" placeholder="Bota teu email aqui">
-                    <button type="submit" class="botao-de-acao" onclick="armazenar(); return false">ARROCHA</button>
+                    <input aria-label="Digite seu email aqui" type="email" id="email" autocomplete="on"
+                        placeholder="Bota teu email aqui">
+                    <button aria-label="Toque no botão ou clique para se cadastrar" type="submit" class="botao-de-acao"
+                        onclick="armazenar(); return false">ARROCHA</button>
 
                 </form>
 
@@ -74,6 +80,16 @@
 
     </div>
 
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 
 </body>
 

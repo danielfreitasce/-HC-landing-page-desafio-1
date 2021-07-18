@@ -35,6 +35,9 @@ img{max-width: 100%;}
     max-width: 25vw;
     margin-left: 25px;
 }
+
+#cabecalho p{font-size: 0%;}
+
 /*CABEÇALHO*/
 
 /*CHAMADA PARA ACAO*/
